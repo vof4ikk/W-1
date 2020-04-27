@@ -1,0 +1,191 @@
+@charset "UTF-8";
+* {
+  /*обращение ко всем тегам страницы*/
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  /*меняет подсчет ширины блока*/
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+/*убираем обводку у некоторых браузеров*/
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+/*блочные теги*/
+html, body {
+  /*уравнение поведение шрифтов для браузеров*/
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+/*наследование шрифта*/
+input::-ms-clear {
+  display: none;
+}
+
+/*убирает особенности браузеров и удаляются стили маркированных списков*/
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.head_1 {
+  display: inline-block;
+  font-size: 30px;
+  font-family: "a_CampusOtlSh", arial;
+  font-style: italic;
+  padding: 2px 20px 10px 20px;
+  margin-right: 5%;
+  margin-left: 12%;
+  border-bottom: solid 2px #ff6;
+  margin-top: 1%;
+  transition-duration: 1s;
+}
+.head_1:hover {
+  border-bottom: solid red;
+}
+
+.head_2 {
+  display: inline-block;
+  font-size: 30px;
+  font-family: "a_CampusOtlSh", arial;
+  font-style: italic;
+  padding: 2px 20px 10px 20px;
+  margin-right: 5%;
+  border-bottom: solid 2px #ff6;
+  transition-duration: 1s;
+}
+.head_2:hover {
+  border-bottom: solid red;
+}
+
+.head_3 {
+  display: inline-block;
+  font-size: 30px;
+  font-family: "a_CampusOtlSh", arial;
+  font-style: italic;
+  padding: 2px 20px 10px 20px;
+  margin-right: 5%;
+  border-bottom: solid 2px #ff6;
+  transition-duration: 1s;
+}
+.head_3:hover {
+  border-bottom: solid red;
+}
+
+.head_4 {
+  display: inline-block;
+  font-size: 30px;
+  font-family: "a_CampusOtlSh", arial;
+  font-style: italic;
+  padding: 2px 20px 10px 20px;
+  margin-right: 5%;
+  border-bottom: solid 2px #ff6;
+  transition-duration: 1s;
+}
+.head_4:hover {
+  border-bottom: solid red;
+}
+
+h1 {
+  font-family: "a_AvanteTitulInline", arial;
+  margin-top: 3%;
+  text-align: center;
+  font-size: 60px;
+  color: #ffff;
+  font-weight: 500;
+}
+
+body {
+  background-image: url(../img/milk.png);
+  background-size: 100% 100%;
+}
+
+.out1 {
+  display: inline-block;
+  font-family: "mr_AfronikG";
+  font-size: 30px;
+  margin-top: 10%;
+  border-bottom: solid blue;
+  padding-bottom: 5px;
+  margin-left: 42.8%;
+}
+
+.out2 {
+  display: inline-block;
+  font-family: "mr_AfronikG";
+  font-size: 30px;
+  margin-left: 42.8%;
+  margin-top: 10%;
+  border-bottom: solid blue;
+  padding-bottom: 5px;
+}
+
+.out3 {
+  display: inline-block;
+  font-family: "mr_AfronikG";
+  font-size: 30px;
+  margin-left: 47.2%;
+  margin-top: 10%;
+  border-bottom: solid blue;
+  padding-bottom: 5px;
+}
+
+.foot {
+  font-family: arial;
+  text-align: center;
+  font-size: 16px;
+  max-width: 100%;
+  border-top: solid #ffff;
+  padding-top: 1%;
+  margin-top: 5%;
+  padding-bottom: 1%;
+}
